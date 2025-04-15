@@ -1,4 +1,4 @@
-package application.features.auth.adapters.in.controllers.signIn;
+package application.features.auth.adapters.in.controllers.signUp;
 
 import application.features.user.adapters.out.dto.CreateUserDto;
 import application.features.user.adapters.out.mappers.UserDtoMapper;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/auth/sign-in")
+@RequestMapping("/auth/sign-up")
 public class CreateUserController {
 
     private final CreateUserCaseImpl createUserCase;

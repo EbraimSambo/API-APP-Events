@@ -1,4 +1,7 @@
 package application.features.user.domain.services;
 
-public class ReadUserService {
+import application.features.user.domain.entities.User;
+
+public interface ReadUserService {
+    User findByEmail(String email);
 }
